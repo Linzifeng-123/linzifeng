@@ -452,10 +452,6 @@
 
   const links = [
     {
-      label: "ScholarMate",
-      href: "https://www.scholarmate.com/P/linzifeng",
-    },
-    {
       label: "Google Scholar",
       href: "https://scholar.google.com/citations?user=gp8iu5cAAAAJ&hl=en",
     },
@@ -476,7 +472,7 @@
         ["research", "研究方向"],
         ["publications", "通讯/一作论文"],
         ["honors", "项目与荣誉"],
-        ["service", "学术服务"],
+        ["service", "学术任职"],
         ["contact", "联系"],
       ],
       hero: {
@@ -537,7 +533,7 @@
         eyebrow: "Publications",
         heading: "通讯作者或第一作者论文",
         intro:
-          "以下列出成果汇总中的通讯作者或第一作者论文（# 为共同第一作者，* 为通讯作者）。完整引用信息可通过 ScholarMate、Google Scholar 和 Web of Science 查看。",
+          "以下列出成果汇总中的通讯作者或第一作者论文（# 为共同第一作者，* 为通讯作者）。完整引用信息可通过 Google Scholar 和 Web of Science 查看。",
         allYears: "全部年份",
         showMore: "显示全部论文",
         showLess: "收起为重点论文",
@@ -564,12 +560,11 @@
         ],
       },
       service: {
-        eyebrow: "Academic Service",
-        heading: "学术服务",
+        eyebrow: "Academic Roles",
+        heading: "学术任职",
         items: [
           "《Energy Storage Materials》编委",
-          "《Nano-Micro Letters》青年编委",
-          "《Materials Research Letters》《中国材料进展》《无机材料学报》等期刊青年编委",
+          "《Nano-Micro Letters》《Materials Research Letters》《中国材料进展》《无机材料学报》等期刊青年编委",
           "《2D Materials》《New Carbon Materials》客座编辑",
           "中国微米纳米技术学会高级会员、中国电工学会高级会员",
         ],
@@ -592,7 +587,7 @@
         ["research", "Research"],
         ["publications", "First/Corresponding Publications"],
         ["honors", "Projects & Honors"],
-        ["service", "Service"],
+        ["service", "Academic Roles"],
         ["contact", "Contact"],
       ],
       hero: {
@@ -680,12 +675,11 @@
         ],
       },
       service: {
-        eyebrow: "Academic Service",
-        heading: "Academic Service",
+        eyebrow: "Academic Roles",
+        heading: "Academic Roles",
         items: [
           "Editorial board member, Energy Storage Materials",
-          "Young editorial board member, Nano-Micro Letters",
-          "Young editorial board member for Materials Research Letters, China Materials Progress, and Journal of Inorganic Materials",
+          "Young editorial board member for Nano-Micro Letters, Materials Research Letters, China Materials Progress, and Journal of Inorganic Materials",
           "Guest editor for 2D Materials and New Carbon Materials",
           "Senior member of professional societies in micro/nano technology and electrical engineering",
         ],

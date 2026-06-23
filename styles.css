@@ -399,12 +399,19 @@ img {
   font-size: 0.86rem;
 }
 
-.research-card h3,
-.publication-item h3 {
+.research-card h3 {
   margin: 8px 0 10px;
   color: var(--navy);
   font-size: 1.08rem;
   line-height: 1.35;
+}
+
+.publication-title {
+  margin: 10px 0 8px !important;
+  color: var(--ink) !important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.45;
 }
 
 .research-card p,
@@ -483,8 +490,10 @@ img {
 }
 
 .publication-journal {
-  background: #f4f7fb;
-  color: var(--muted);
+  background: #f7eeee;
+  color: var(--red);
+  font-size: 1rem;
+  font-weight: 800;
 }
 
 .two-column-list {

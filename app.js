@@ -124,7 +124,7 @@
       meta.appendChild(createElement("span", "publication-journal", item.journal));
       article.appendChild(meta);
       article.appendChild(createElement("p", "publication-authors", item.authors));
-      article.appendChild(createElement("h3", "", item.title));
+      article.appendChild(createElement("p", "publication-title", item.title));
       article.appendChild(createElement("p", "", item.note));
       list.appendChild(article);
     });
