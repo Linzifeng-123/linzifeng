@@ -240,12 +240,12 @@ img {
 }
 
 .portrait-panel img {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 1 / 1;
   width: 100%;
   border: 1px solid var(--line);
   border-radius: 8px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center center;
   background: #fff;
   box-shadow: var(--shadow);
 }
