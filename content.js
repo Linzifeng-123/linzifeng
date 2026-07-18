@@ -486,7 +486,7 @@
       ],
       hero: {
         name: "林紫锋",
-        title: "四川大学材料科学与工程学院 三级教授、博士生导师",
+        title: "四川大学材料科学与工程学院 三级研究员、博士生导师",
         subtitle: "国家级青年人才 · 四川省杰出青年基金获得者 · 四川省特聘专家",
         summary:
           "长期从事电化学储能器件与关键材料研究，聚焦 MXene 材料制备、电极界面设计和新型电化学储能体系。",
@@ -503,7 +503,7 @@
         eyebrow: "个人简介",
         heading: "围绕新型电源材料与化学开展研究",
         paragraphs: [
-          "林紫锋，1986 年 10 月生，广东汕尾人。现任四川大学材料科学与工程学院三级教授、博士生导师，入选国家级青年人才，获得四川省杰出青年基金和四川省特聘专家等支持。",
+          "林紫锋，1986 年 10 月生，广东汕尾人。现任四川大学材料科学与工程学院三级研究员、博士生导师，入选国家级青年人才，获得四川省杰出青年基金和四川省特聘专家等支持。",
           "其研究聚焦超级电容器、锂离子电池、钠离子电池、水系电池等储能器件与关键材料。以通讯作者及第一作者在 Nature Materials、Nature Nanotechnology、Nature Energy、Nature Synthesis、Joule、Nature Communications、Angewandte Chemie International Edition 等期刊发表论文 40+ 篇，参与编写英文专著 2 本，获授权发明专利 10+ 件。",
           "代表性工作包括提出二维 MXene 材料制备新策略，发展电极结构与界面多尺度调控方法，并探索低温、高能量密度和快速反应动力学的新型储能体系。",
         ],
@@ -515,7 +515,7 @@
         ],
         appointmentsTitle: "工作经历",
         appointments: [
-          ["2020.09 - 至今", "四川大学材料科学与工程学院，三级教授、博士生导师"],
+          ["2020.09 - 至今", "四川大学材料科学与工程学院，三级研究员、博士生导师"],
           ["2018.09 - 2020.09", "四川大学材料科学与工程学院，特聘研究员"],
           ["2017.06 - 2018.07", "法国图卢兹大学材料学院，博士后"],
         ],
@@ -601,7 +601,7 @@
       ],
       hero: {
         name: "Zifeng Lin",
-        title: "Level-III Professor, College of Materials Science and Engineering, Sichuan University",
+        title: "Level-III Researcher, College of Materials Science and Engineering, Sichuan University",
         subtitle: "National Young Talent · Distinguished Young Scholar of Sichuan Province",
         summary:
           "Researching electrochemical energy-storage materials and chemistries, with a focus on MXenes, electrode interfaces, and next-generation storage systems.",
@@ -618,7 +618,7 @@
         eyebrow: "About",
         heading: "New materials and chemistries for electrochemical energy storage",
         paragraphs: [
-          "Prof. Zifeng Lin is a Level-III Professor and doctoral supervisor at the College of Materials Science and Engineering, Sichuan University. He is a National Young Talent and a Distinguished Young Scholar of Sichuan Province.",
+          "Prof. Zifeng Lin is a Level-III Researcher and doctoral supervisor at the College of Materials Science and Engineering, Sichuan University. He is a National Young Talent and a Distinguished Young Scholar of Sichuan Province.",
           "His research focuses on energy-storage devices and key materials for supercapacitors, lithium-ion batteries, sodium-ion batteries, and aqueous batteries. As first or corresponding author, he has published 40+ papers in journals including Nature Materials, Nature Nanotechnology, Nature Energy, Nature Synthesis, Joule, Nature Communications, and Angewandte Chemie International Edition. He has contributed to two English book chapters and holds 10+ authorized invention patents.",
           "His representative contributions include new strategies for two-dimensional MXene synthesis, multiscale regulation of electrode structures and interfaces, and new electrochemical systems for low-temperature, high-energy-density, and fast-kinetics storage.",
         ],
@@ -630,7 +630,7 @@
         ],
         appointmentsTitle: "Appointments",
         appointments: [
-          ["2020.09 - Present", "Level-III Professor, Sichuan University"],
+          ["2020.09 - Present", "Level-III Researcher, Sichuan University"],
           ["2018.09 - 2020.09", "Pre-tenure Professor, Sichuan University"],
           ["2017.06 - 2018.07", "Postdoctoral Researcher, University of Toulouse"],
         ],
