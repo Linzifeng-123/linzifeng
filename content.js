@@ -601,7 +601,7 @@
       ],
       hero: {
         name: "Zifeng Lin",
-        title: "Level-III Researcher, College of Materials Science and Engineering, Sichuan University",
+        title: "Full Professor, College of Materials Science and Engineering, Sichuan University",
         subtitle: "National Young Talent · Distinguished Young Scholar of Sichuan Province",
         summary:
           "Researching electrochemical energy-storage materials and chemistries, with a focus on MXenes, electrode interfaces, and next-generation storage systems.",
@@ -618,7 +618,7 @@
         eyebrow: "About",
         heading: "New materials and chemistries for electrochemical energy storage",
         paragraphs: [
-          "Prof. Zifeng Lin is a Level-III Researcher and doctoral supervisor at the College of Materials Science and Engineering, Sichuan University. He is a National Young Talent and a Distinguished Young Scholar of Sichuan Province.",
+          "Prof. Zifeng Lin is a Full Professor and doctoral supervisor at the College of Materials Science and Engineering, Sichuan University. He is a National Young Talent and a Distinguished Young Scholar of Sichuan Province.",
           "His research focuses on energy-storage devices and key materials for supercapacitors, lithium-ion batteries, sodium-ion batteries, and aqueous batteries. As first or corresponding author, he has published 40+ papers in journals including Nature Materials, Nature Nanotechnology, Nature Energy, Nature Synthesis, Joule, Nature Communications, and Angewandte Chemie International Edition. He has contributed to two English book chapters and holds 10+ authorized invention patents.",
           "His representative contributions include new strategies for two-dimensional MXene synthesis, multiscale regulation of electrode structures and interfaces, and new electrochemical systems for low-temperature, high-energy-density, and fast-kinetics storage.",
         ],
@@ -630,7 +630,7 @@
         ],
         appointmentsTitle: "Appointments",
         appointments: [
-          ["2020.09 - Present", "Level-III Researcher, Sichuan University"],
+          ["2020.09 - Present", "Full Professor, Sichuan University"],
           ["2018.09 - 2020.09", "Pre-tenure Professor, Sichuan University"],
           ["2017.06 - 2018.07", "Postdoctoral Researcher, University of Toulouse"],
         ],
