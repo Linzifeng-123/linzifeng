@@ -11,7 +11,7 @@
       year: 2026,
       journal: "Nature Synthesis",
       title: "Single-step synthesis of delaminated MXenes in deep eutectic solvents",
-      note: "DOI: 10.1038/s44160-026-01019-2",
+      note: "5, 1208-1218. DOI: 10.1038/s44160-026-01019-2",
       featured: true,
     },
     {
