@@ -12,14 +12,16 @@
       year: 2026,
       journal: "Nano Energy",
       title: "Regulating anion participation in phosphate electrolyte for nonflammable and low-temperature sodium-ion batteries",
-      note: "156, 112182. DOI: 10.1016/j.nanoen.2026.112182",
+      note: "156, 112182",
+      doi: "10.1016/j.nanoen.2026.112182",
       featured: true,
     },
     {
       year: 2026,
       journal: "Nature Synthesis",
       title: "Single-step synthesis of delaminated MXenes in deep eutectic solvents",
-      note: "5, 1208-1218. DOI: 10.1038/s44160-026-01019-2",
+      note: "5, 1208-1218",
+      doi: "10.1038/s44160-026-01019-2",
       featured: true,
     },
     {
@@ -27,13 +29,15 @@
       journal: "Angewandte Chemie International Edition",
       title: "All-Cyclic-Solvent Electrolyte Design Enables Ultra-Low-Temperature and Fast-Charging Sodium-Ion Batteries",
       note: "65(17), e21433",
+      doi: "10.1002/anie.202521433",
       featured: true,
     },
     {
       year: 2026,
       journal: "Nature Communications",
-      title: "Breaking Low-Temperature Barriers for High-Energy-Density Aqueous Sulfur-Based Batteries through Electrolyte Design",
+      title: "Enabling low-temperature aqueous zinc/copper-sulfur hybrid batteries through electrolyte design",
       note: "17, Article number: 3167",
+      doi: "10.1038/s41467-026-69742-0",
       featured: true,
     },
     {
@@ -41,6 +45,7 @@
       journal: "Joule",
       title: "High-voltage sulfur electrochemistry enabled by copper-ion mediation in non-aqueous batteries",
       note: "10(2), 102268",
+      doi: "10.1016/j.joule.2025.102268",
       featured: true,
     },
     {
@@ -48,6 +53,7 @@
       journal: "Nano-Micro Letters",
       title: "Stabilizing the Anode and Cathode Interface Synchronously via Electrolyte-triggered Hydrogel Interphase for Zinc Metal Batteries",
       note: "18, Article number: 206",
+      doi: "10.1007/s40820-025-02051-1",
       featured: true,
     },
     {
@@ -55,6 +61,7 @@
       journal: "Angewandte Chemie International Edition",
       title: "Solvent Chain-Length Engineering Enables All-Climate Sodium-ion Batteries",
       note: "64(45), e202514451",
+      doi: "10.1002/anie.202514451",
       featured: true,
     },
     {
@@ -62,6 +69,7 @@
       journal: "Journal of Physical Chemistry Letters",
       title: "High zinc utilization enabled by MXene anode for flexible dual-plating Zn-Br2 microbatteries",
       note: "16(37), 9839-9848",
+      doi: "10.1021/acs.jpclett.5c02342",
       featured: false,
     },
     {
@@ -69,6 +77,7 @@
       journal: "Nano-Micro Letters",
       title: "Tellurium-Terminated MXene Synthesis via One-Step Tellurium Etching",
       note: "18(1), Article number: 28",
+      doi: "10.1007/s40820-025-01875-1",
       featured: false,
     },
     {
@@ -76,6 +85,7 @@
       journal: "Energy & Environmental Science",
       title: "A low-temperature aqueous Se-based battery with rapid reaction kinetics and unprecedented energy density",
       note: "18(12), 6180-6190",
+      doi: "10.1039/d4ee06003b",
       featured: true,
     },
     {
@@ -83,6 +93,7 @@
       journal: "ChemSusChem",
       title: "High-Entropy Electrolyte Design for Low-Temperature Supercapacitors",
       note: "18(7), e202402035",
+      doi: "10.1002/cssc.202402035",
       featured: false,
     },
     {
@@ -90,6 +101,7 @@
       journal: "ACS Nano",
       title: "Enabling Low-Temperature Zinc-Bromine Microbatteries with an Additive-Free Electrolyte Design",
       note: "19(9), 9340-9350",
+      doi: "10.1021/acsnano.5c00988",
       featured: false,
     },
     {
@@ -97,6 +109,7 @@
       journal: "Nature Nanotechnology",
       title: "Advanced Characterization of Confined Electrochemical Interface in Electrochemical Capacitors",
       note: "20(2), 196-208",
+      doi: "10.1038/s41565-024-01821-z",
       featured: true,
     },
     {
@@ -104,6 +117,7 @@
       journal: "ACS Applied Energy Materials",
       title: "Activating Pseudocapacitive Charge Storage of Molten-Salt-Synthesized MXenes in Mild Aqueous Electrolytes",
       note: "7(24), 11518-11524",
+      doi: "10.1021/acsaem.3c02376",
       featured: false,
     },
     {
@@ -111,6 +125,7 @@
       journal: "Nature Communications",
       title: "A tripartite synergistic optimization strategy for zinc-iodine batteries",
       note: "15(1), 9702",
+      doi: "10.1038/s41467-024-53800-6",
       featured: true,
     },
     {
@@ -118,6 +133,7 @@
       journal: "Batteries & Supercaps",
       title: "Influence of Surface Groups on Electrochemical Properties of Molten Salt Synthesized Ti3C2Tx in Mild Aqueous Electrolytes",
       note: "7(9), e202400153",
+      doi: "10.1002/batt.202400153",
       featured: false,
     },
     {
@@ -125,6 +141,7 @@
       journal: "Advanced Functional Materials",
       title: "Tailoring Tribological Characteristics in Titanium Alloys by Laser Surface Texturing and 2D Ti3C2Tx MXene Nanocoating",
       note: "34(36), 2401231",
+      doi: "10.1002/adfm.202401231",
       featured: false,
     },
     {
@@ -132,6 +149,7 @@
       journal: "Nano Research",
       title: "Flexible MXene/sodium alginate composite fabric with high structural stability and oxidation resistance for electromagnetic interference shielding",
       note: "17(6), 5326-5335",
+      doi: "10.1007/s12274-024-6488-6",
       featured: false,
     },
     {
@@ -139,6 +157,7 @@
       journal: "Advanced Energy Materials",
       title: "Ti2CTx MXene Cathode Host for Enhanced Zinc-Bromine Battery Performance",
       note: "14(20), 2304516",
+      doi: "10.1002/aenm.202304516",
       featured: false,
     },
     {
@@ -146,6 +165,7 @@
       journal: "Journal of Power Sources",
       title: "Designing high-chaos mixed-salt electrolytes for enhancing graphite-electrolyte interfacial stability in lithium-ion batteries",
       note: "607, 234611",
+      doi: "10.1016/j.jpowsour.2024.234611",
       featured: false,
     },
     {
@@ -153,6 +173,7 @@
       journal: "Electrochemistry Communications",
       title: "Enhanced electrochemical performance of molten salt synthesized V2CTx MXene@VOx composite in Zn ion aqueous electrolytes",
       note: "165, 107770",
+      doi: "10.1016/j.elecom.2024.107770",
       featured: false,
     },
     {
@@ -160,6 +181,7 @@
       journal: "Acta Physico-Chimica Sinica",
       title: "Molten Salt Derived Mo2CTx MXene with Excellent Catalytic Performance for Hydrogen Evolution Reaction",
       note: "40(9), 2306031",
+      doi: "10.3866/pku.whxb202306031",
       featured: false,
     },
     {
@@ -167,6 +189,7 @@
       journal: "中国材料进展",
       title: "热处理对Ti3C2Tx MXene材料电化学储锂性能的影响",
       note: "42(5), 369-374",
+      doi: "10.7502/j.issn.1674-3962.202208020",
       featured: false,
     },
     {
@@ -174,6 +197,7 @@
       journal: "Progress in Natural Science: Materials International",
       title: "Improvement in hydrogen storage performance of Mg by mechanical grinding with molten salt etching Ti3C2Clx",
       note: "33(2), 211-224",
+      doi: "10.1016/j.pnsc.2023.05.005",
       featured: false,
     },
     {
@@ -181,6 +205,7 @@
       journal: "Small Methods",
       title: "Ti3C2Tx MXene with high pseudocapacitive activity and large potential window in a mild AlCl3 aqueous electrolyte",
       note: "7(8), 2201526",
+      doi: "10.1002/smtd.202201526",
       featured: false,
     },
     {
@@ -188,6 +213,7 @@
       journal: "Materials Research Letters",
       title: "Molten salt derived Mo2AlB2 with excellent HER catalytic performance",
       note: "11(7), 571-577",
+      doi: "10.1080/21663831.2023.2186807",
       featured: false,
     },
     {
@@ -195,6 +221,7 @@
       journal: "Energy & Environmental Materials",
       title: "Molten salt shielded synthesis (MS3) of MXene in air",
       note: "6(2), e12328",
+      doi: "10.1002/eem2.12328",
       featured: false,
     },
     {
@@ -202,6 +229,7 @@
       journal: "Chinese Chemical Letters",
       title: "Lithium storage properties of Ti3C2Tx (Tx = F, Cl, Br) MXenes",
       note: "34(4), 107426",
+      doi: "10.1016/j.cclet.2022.04.024",
       featured: false,
     },
     {
@@ -209,6 +237,7 @@
       journal: "Science Bulletin",
       title: "Boosting the lithium-ion storage performance of perovskite SrxVO3-delta via Sr cation and O anion deficient engineering",
       note: "67(22), 2305-2315",
+      doi: "10.1016/j.scib.2022.11.006",
       featured: false,
     },
     {
@@ -216,6 +245,7 @@
       journal: "Advanced Materials Interfaces",
       title: "A method for deconvoluting and quantifying the real-time species fluxes and ionic currents using in situ electrochemical quartz crystal microbalance",
       note: "9(16), 2200112",
+      doi: "10.1002/admi.202200112",
       featured: false,
     },
     {
@@ -223,6 +253,7 @@
       journal: "Electrochemistry Communications",
       title: "Influence of aqueous solutions treatment on the Li+ storage properties of molten salt derived Ti3C2Clx MXene",
       note: "136, 107236",
+      doi: "10.1016/j.elecom.2022.107236",
       featured: false,
     },
     {
@@ -230,6 +261,7 @@
       journal: "Nature Communications",
       title: "Li-ion storage properties of two-dimensional titanium-carbide synthesized via fast one-pot method in air atmosphere",
       note: "12(1), Article number: 5085",
+      doi: "10.1038/s41467-021-25306-y",
       featured: true,
     },
     {
@@ -237,6 +269,7 @@
       journal: "Nano-Micro Letters",
       title: "Electrochemical Lithium Storage Performance of Molten Salt Derived V2SnC MAX Phase",
       note: "13(1), 158",
+      doi: "10.1007/s40820-021-00684-6",
       featured: false,
     },
     {
@@ -244,6 +277,7 @@
       journal: "ChemElectroChem",
       title: "Molten Salt Derived Nb2CTx MXene Anode for Li-ion Batteries",
       note: "8(5), 957-962",
+      doi: "10.1002/celc.202100142",
       featured: false,
     },
     {
@@ -251,6 +285,7 @@
       journal: "Nature Materials",
       title: "A general Lewis acidic etching route for preparing MXenes with enhanced electrochemical performance in non-aqueous electrolyte",
       note: "19(8), 894-899",
+      doi: "10.1038/s41563-020-0657-0",
       featured: true,
     },
     {
@@ -258,6 +293,7 @@
       journal: "Advanced Functional Materials",
       title: "Robust High-Temperature Supercapacitors Based on SiC Nanowires",
       note: "31(8), 2008901",
+      doi: "10.1002/adfm.202008901",
       featured: false,
     },
     {
@@ -265,6 +301,7 @@
       journal: "Energy & Environmental Materials",
       title: "Computational Insights into Charge Storage Mechanisms of Supercapacitors",
       note: "3(3), 235-246",
+      doi: "10.1002/eem2.12124",
       featured: false,
     },
     {
@@ -272,6 +309,7 @@
       journal: "Chemical Society Reviews",
       title: "Nanoporous carbon for electrochemical capacitive energy storage",
       note: "49(10), 3005-3039",
+      doi: "10.1039/d0cs00059k",
       featured: false,
     },
     {
@@ -279,6 +317,7 @@
       journal: "Trends in Chemistry",
       title: "MXenes as High-Rate Electrodes for Energy Storage",
       note: "2(7), 654-664",
+      doi: "10.1016/j.trechm.2020.04.010",
       featured: false,
     },
     {
@@ -286,6 +325,7 @@
       journal: "Energy Storage Materials",
       title: "Electrochemical study of pseudocapacitive behavior of Ti3C2Tx MXene material in aqueous electrolytes",
       note: "18, 456-461",
+      doi: "10.1016/j.ensm.2018.12.017",
       featured: false,
     },
     {
@@ -293,6 +333,7 @@
       journal: "Chinese Chemical Letters",
       title: "2020 roadmap on two-dimensional materials for energy storage and conversion",
       note: "30(12), 2053-2064",
+      doi: "10.1016/j.cclet.2019.10.028",
       featured: false,
     },
     {
@@ -300,6 +341,7 @@
       journal: "Advanced Functional Materials",
       title: "3D Macroscopic Architectures from Self-Assembled MXene Hydrogels",
       note: "29(33), 1903960",
+      doi: "10.1002/adfm.201903960",
       featured: true,
     },
     {
@@ -307,6 +349,7 @@
       journal: "Advanced Materials",
       title: "Large Intercalation Pseudocapacitance in 2D VO2(B): Breaking through the Kinetic Barrier",
       note: "30(40), 1803594",
+      doi: "10.1002/adma.201803594",
       featured: false,
     },
     {
@@ -314,6 +357,7 @@
       journal: "Materials Today",
       title: "Materials for supercapacitors: When Li-ion battery power is not enough",
       note: "21(4), 419-436",
+      doi: "10.1016/j.mattod.2018.01.035",
       featured: false,
     },
     {
@@ -321,6 +365,7 @@
       journal: "Current Opinion in Electrochemistry",
       title: "Advanced analytical techniques to characterize materials for electrochemical capacitors",
       note: "9, 18-25",
+      doi: "10.1016/j.coelec.2018.03.004",
       featured: false,
     },
     {
@@ -328,6 +373,7 @@
       journal: "Nature Energy",
       title: "Ultra-high-rate pseudocapacitive energy storage in two-dimensional transition metal carbides",
       note: "2(8), Article number: 17105",
+      doi: "10.1038/nenergy.2017.105",
       featured: true,
     },
     {
@@ -335,6 +381,7 @@
       journal: "Current Opinion in Electrochemistry",
       title: "Electrochemical double layer capacitors: What is next beyond the corner?",
       note: "6(1), 115-119",
+      doi: "10.1016/j.coelec.2017.10.013",
       featured: false,
     },
     {
@@ -342,6 +389,7 @@
       journal: "Electrochemistry Communications",
       title: "Electrochemical and in-situ X-ray diffraction studies of Ti3C2Tx MXene in ionic liquid electrolyte",
       note: "72, 50-53",
+      doi: "10.1016/j.elecom.2016.08.023",
       featured: false,
     },
     {
@@ -349,6 +397,7 @@
       journal: "Journal of Power Sources",
       title: "Capacitance of Ti3C2Tx MXene in ionic liquid electrolyte",
       note: "326, 575-579",
+      doi: "10.1016/j.jpowsour.2016.04.035",
       featured: false,
     },
     {
@@ -356,6 +405,7 @@
       journal: "Electrochimica Acta",
       title: "Graphene-Based Supercapacitors Using Eutectic Ionic Liquid Mixture Electrolyte",
       note: "206, 446-451",
+      doi: "10.1016/j.electacta.2015.12.097",
       featured: false,
     },
   ];
@@ -369,7 +419,7 @@
       "Li Fangbing, Long Yu, Wu Zhitan, Ye Ruiqing, Li Zhiguo, Zhang Boya, Yu Jinyang, Wang Feifei, Chen Zihui, Geng Chuannan, Chi Sijia, Wang Li, Lin Zifeng*, Simon Patrice*, Tao Ying*, Yang Quan-Hong*",
     "All-Cyclic-Solvent Electrolyte Design Enables Ultra-Low-Temperature and Fast-Charging Sodium-Ion Batteries":
       "Luo Zongbin＃, Hu Linyu＃, Ye Yong, Ma Guoliang, Ding Yu, Fan Xinming*, Dai Chunlong*, Lin Zifeng*",
-    "Breaking Low-Temperature Barriers for High-Energy-Density Aqueous Sulfur-Based Batteries through Electrolyte Design":
+    "Enabling low-temperature aqueous zinc/copper-sulfur hybrid batteries through electrolyte design":
       "Zhou Haichuan, Hu Linyu*, Liu Guoqiang, Pi Yourui, Wan Fang, Liu Ying, Dai Chunlong*, Lin Zifeng*",
     "High-voltage sulfur electrochemistry enabled by copper-ion mediation in non-aqueous batteries":
       "Ding Yu, Dai Chunlong*, Wang Fei, Li Zhaohui, Zhou Haichuan, Luo Zongbin, Xu Maowen, Hu Linyu*, Lin Zifeng*",
@@ -574,7 +624,7 @@
         awardsTitle: "奖励与荣誉",
         awards: [
           "2025 年中国新型储能材料大会青年科学家奖",
-          "2024、2025 Stanford-Elsevier 全球前 2% 科学家榜单",
+          "2024 至 2026 年连续三年入选 Stanford-Elsevier 全球前 2% 科学家榜单",
           "2023 年国家高层次人才特殊支持计划青年人才项目",
           "2021 年英国皇家化学学会 Horizon Prize",
           "2020 年 IFAM 优秀青年科学家奖",
@@ -692,7 +742,7 @@
         awardsTitle: "Honors",
         awards: [
           "Young Scientist Award, China New Energy Storage Materials Conference, 2025",
-          "Stanford-Elsevier World's Top 2% Scientists list, 2024 and 2025",
+          "Named to the Stanford-Elsevier World's Top 2% Scientists list for three consecutive years (2024–2026)",
           "National Young Talent Program of China, 2023",
           "Horizon Prize, Royal Society of Chemistry, 2021",
           "IFAM Young Scientist Award, 2020",

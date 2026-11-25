@@ -139,17 +139,13 @@
       const article = createElement("article", "publication-item");
       const meta = createElement("div", "publication-meta");
       meta.appendChild(createElement("span", "publication-journal", item.journal));
-      const [details, inlineDoi] = item.note.split(". DOI: ");
-      meta.appendChild(createElement("span", "citation-detail", details));
+      meta.appendChild(createElement("span", "citation-detail", item.note));
       article.appendChild(meta);
       article.appendChild(createElement("p", "publication-title", item.title));
       article.appendChild(createElement("p", "publication-authors", item.authors));
-      const doi = item.doi || inlineDoi;
-      if (doi) {
-        const link = createElement("a", "doi-link", "DOI: " + doi);
-        link.href = "https://doi.org/" + doi;
-        article.appendChild(link);
-      }
+      const link = createElement("a", "doi-link", "DOI: " + item.doi);
+      link.href = "https://doi.org/" + item.doi;
+      article.appendChild(link);
       group.appendChild(article);
     });
 
