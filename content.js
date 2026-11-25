@@ -2,6 +2,14 @@
   const publications = [
     {
       year: 2026,
+      journal: "JACS Au",
+      title: "Boric Acid-Assisted Thermal Restoration of an Air-Degraded O3-Type Sodium Layered Oxide Cathode",
+      note: "6(11), 6365-6373",
+      doi: "10.1021/jacsau.6c01417",
+      featured: true,
+    },
+    {
+      year: 2026,
       journal: "Nano Energy",
       title: "Regulating anion participation in phosphate electrolyte for nonflammable and low-temperature sodium-ion batteries",
       note: "156, 112182. DOI: 10.1016/j.nanoen.2026.112182",
@@ -353,6 +361,8 @@
   ];
 
   const publicationAuthors = {
+    "Boric Acid-Assisted Thermal Restoration of an Air-Degraded O3-Type Sodium Layered Oxide Cathode":
+      "Yong Ye, Zongbin Luo, Chunlong Dai, Tao Hu*, Zifeng Lin*",
     "Regulating anion participation in phosphate electrolyte for nonflammable and low-temperature sodium-ion batteries":
       "Zongbin Luo, Chunlong Dai*, Yong Ye, Bin Wang, Bao Zhang*, Zifeng Lin*",
     "Single-step synthesis of delaminated MXenes in deep eutectic solvents":
@@ -477,8 +487,8 @@
       documentTitle: "林紫锋 | 四川大学材料科学与工程学院",
       languageToggle: "EN",
       nav: [
-        ["about", "简介"],
         ["research", "研究方向"],
+        ["about", "个人简介"],
         ["publications", "通讯/一作论文"],
         ["honors", "项目与荣誉"],
         ["service", "学术任职"],
@@ -486,12 +496,15 @@
       ],
       hero: {
         name: "林紫锋",
-        title: "四川大学材料科学与工程学院 研究员（正高三级）、博士生导师",
+        alternateName: "Zifeng Lin",
+        affiliation: "四川大学 · 材料科学与工程学院",
+        latest: "最新论文",
+        title: "研究员（正高三级）、博士生导师",
         subtitle: "国家级青年人才 · 四川省杰出青年基金获得者 · 四川省特聘专家",
         summary:
           "长期从事电化学储能器件与关键材料研究，聚焦 MXene 材料制备、电极界面设计和新型电化学储能体系。",
-        primaryAction: "下载公开版简历",
-        secondaryAction: "查看通讯/一作论文",
+        primaryAction: "下载简历",
+        secondaryAction: "浏览论文",
       },
       stats: [
         ["40+", "第一/通讯作者论文"],
@@ -500,8 +513,8 @@
         ["2", "英文专著章节"],
       ],
       about: {
-        eyebrow: "个人简介",
-        heading: "围绕新型电源材料与化学开展研究",
+        eyebrow: "Biography",
+        heading: "个人简介",
         paragraphs: [
           "林紫锋，1986 年 10 月生，广东汕尾人。现任四川大学材料科学与工程学院研究员（正高三级）、博士生导师，入选国家级青年人才，获得四川省杰出青年基金和四川省特聘专家等支持。",
           "其研究聚焦超级电容器、锂离子电池、钠离子电池、水系电池等储能器件与关键材料。以通讯作者及第一作者在 Nature Materials、Nature Nanotechnology、Nature Energy、Nature Synthesis、Joule、Nature Communications、Angewandte Chemie International Edition 等期刊发表论文 40+ 篇，参与编写英文专著 2 本，获授权发明专利 10+ 件。",
@@ -542,10 +555,10 @@
         eyebrow: "Publications",
         heading: "通讯作者或第一作者论文",
         intro:
-          "以下列出成果汇总中的通讯作者或第一作者论文（# 为共同第一作者，* 为通讯作者）。完整引用信息可通过 Google Scholar 和 Web of Science 查看。",
+          "＃ 共同第一作者　* 通讯作者",
         allYears: "全部年份",
         showMore: "显示全部论文",
-        showLess: "收起为重点论文",
+        showLess: "收起列表",
       },
       honors: {
         eyebrow: "Projects & Honors",
@@ -592,21 +605,24 @@
       documentTitle: "Zifeng Lin | Sichuan University",
       languageToggle: "中文",
       nav: [
-        ["about", "About"],
         ["research", "Research"],
-        ["publications", "First/Corresponding Publications"],
+        ["about", "Biography"],
+        ["publications", "Publications"],
         ["honors", "Projects & Honors"],
         ["service", "Academic Roles"],
         ["contact", "Contact"],
       ],
       hero: {
         name: "Zifeng Lin",
-        title: "Full Professor, College of Materials Science and Engineering, Sichuan University",
+        alternateName: "林紫锋",
+        affiliation: "Sichuan University · Materials Science and Engineering",
+        latest: "Latest paper",
+        title: "Full Professor",
         subtitle: "National Young Talent · Distinguished Young Scholar of Sichuan Province",
         summary:
           "Researching electrochemical energy-storage materials and chemistries, with a focus on MXenes, electrode interfaces, and next-generation storage systems.",
         primaryAction: "Download Public CV",
-        secondaryAction: "View First/Corresponding Publications",
+        secondaryAction: "Browse publications",
       },
       stats: [
         ["40+", "first/corresponding-author papers"],
@@ -616,7 +632,7 @@
       ],
       about: {
         eyebrow: "About",
-        heading: "New materials and chemistries for electrochemical energy storage",
+        heading: "Biography",
         paragraphs: [
           "Prof. Zifeng Lin is a Full Professor and doctoral supervisor at the College of Materials Science and Engineering, Sichuan University. He is a National Young Talent and a Distinguished Young Scholar of Sichuan Province.",
           "His research focuses on energy-storage devices and key materials for supercapacitors, lithium-ion batteries, sodium-ion batteries, and aqueous batteries. As first or corresponding author, he has published 40+ papers in journals including Nature Materials, Nature Nanotechnology, Nature Energy, Nature Synthesis, Joule, Nature Communications, and Angewandte Chemie International Edition. He has contributed to two English book chapters and holds 10+ authorized invention patents.",
@@ -657,10 +673,10 @@
         eyebrow: "Publications",
         heading: "Corresponding or First-Author Publications",
         intro:
-          "A complete list of corresponding-author or first-author publications from the achievement summary. # indicates equal contribution and * indicates corresponding author in the source records.",
+          "＃ Equal first authorship　* Corresponding author",
         allYears: "All years",
         showMore: "Show all publications",
-        showLess: "Collapse to highlights",
+        showLess: "Show fewer papers",
       },
       honors: {
         eyebrow: "Projects & Honors",

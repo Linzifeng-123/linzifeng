@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150">
+  <defs>
+    <pattern id="electrode" width="12" height="12" patternUnits="userSpaceOnUse"><path d="m0 12 12-12m-4 16L16 8" stroke="#bc767c" stroke-width="1"/></pattern>
+    <g id="ion"><circle r="9" fill="#f7f4ee" stroke="#306f6a" stroke-width="1.6"/><path d="M-4 0h8m-4-4v8" stroke="#306f6a" stroke-width="1.5"/></g>
+    <g id="solv" fill="#93bcb5"><circle cx="0" cy="-16" r="3"/><circle cx="14" cy="-8" r="3"/><circle cx="14" cy="8" r="3"/><circle cy="16" r="3"/><circle cx="-14" cy="8" r="3"/><circle cx="-14" cy="-8" r="3"/></g>
+  </defs>
+  <path fill="#f4eded" d="M0 0h400v150H0z"/>
+  <path d="M79 20h64v36h-12v31h12v44H79z" fill="#844457"/>
+  <path d="M79 20h64v36h-12v31h12v44H79z" fill="url(#electrode)"/>
+  <path d="M154 18v117" stroke="#bd8e8d" stroke-dasharray="3 5"/>
+  <g fill="none" stroke="#7e8883" stroke-width="1.5"><path d="M220 68q-24-21-54-4m5-7-7 8 11-1M270 99q-20 12-40 1m7-2-9 1 6 7"/></g>
+  <use href="#ion" x="150" y="73"/><use href="#ion" x="199" y="100"/><use href="#ion" x="246" y="56"/><use href="#solv" x="246" y="56"/><use href="#ion" x="295" y="93"/><use href="#solv" x="295" y="93"/>
+</svg>

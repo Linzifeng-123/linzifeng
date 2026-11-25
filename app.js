@@ -1,5 +1,7 @@
 (function () {
   const content = window.SITE_CONTENT;
+  const previewCount = 6;
+  const researchImages = ["layers", "interface", "cell"];
   const state = {
     lang: "zh",
     selectedYear: "all",
@@ -77,7 +79,12 @@
     container.innerHTML = "";
     copy.research.items.forEach((item, index) => {
       const card = createElement("article", "research-card");
-      card.appendChild(createElement("span", "research-number", String(index + 1).padStart(2, "0")));
+      const image = createElement("img", "research-image");
+      image.src = "assets/research-" + researchImages[index] + ".svg";
+      image.alt = "";
+      image.width = 400;
+      image.height = 150;
+      card.appendChild(image);
       card.appendChild(createElement("h3", "", item.title));
       card.appendChild(createElement("p", "", item.text));
       container.appendChild(card);
@@ -100,6 +107,7 @@
     allButton.type = "button";
     allButton.dataset.year = "all";
     allButton.classList.toggle("active", state.selectedYear === "all");
+    allButton.setAttribute("aria-pressed", String(state.selectedYear === "all"));
     container.appendChild(allButton);
 
     publicationYears().forEach((year) => {
@@ -107,6 +115,7 @@
       button.type = "button";
       button.dataset.year = String(year);
       button.classList.toggle("active", state.selectedYear === String(year));
+      button.setAttribute("aria-pressed", String(state.selectedYear === String(year)));
       container.appendChild(button);
     });
   }
@@ -114,24 +123,40 @@
   function renderPublications(copy) {
     const list = $("[data-publication-list]");
     const filtered = filterPublications();
-    const visible = state.expanded ? filtered : filtered.filter((item) => item.featured).slice(0, 10);
+    const visible = state.expanded ? filtered : filtered.slice(0, previewCount);
     list.innerHTML = "";
 
+    let group, year;
     visible.forEach((item) => {
+      if (item.year !== year) {
+        year = item.year;
+        const section = createElement("section", "year-group");
+        section.appendChild(createElement("h3", "publication-year", String(year)));
+        group = createElement("div", "year-entries");
+        section.appendChild(group);
+        list.appendChild(section);
+      }
       const article = createElement("article", "publication-item");
       const meta = createElement("div", "publication-meta");
-      meta.appendChild(createElement("span", "publication-year", String(item.year)));
       meta.appendChild(createElement("span", "publication-journal", item.journal));
+      const [details, inlineDoi] = item.note.split(". DOI: ");
+      meta.appendChild(createElement("span", "citation-detail", details));
       article.appendChild(meta);
-      article.appendChild(createElement("p", "publication-authors", item.authors));
       article.appendChild(createElement("p", "publication-title", item.title));
-      article.appendChild(createElement("p", "", item.note));
-      list.appendChild(article);
+      article.appendChild(createElement("p", "publication-authors", item.authors));
+      const doi = item.doi || inlineDoi;
+      if (doi) {
+        const link = createElement("a", "doi-link", "DOI: " + doi);
+        link.href = "https://doi.org/" + doi;
+        article.appendChild(link);
+      }
+      group.appendChild(article);
     });
 
     const toggle = $("[data-publication-toggle]");
     toggle.textContent = state.expanded ? copy.publications.showLess : copy.publications.showMore;
-    toggle.hidden = filtered.length <= visible.length && !state.expanded;
+    toggle.hidden = filtered.length <= previewCount;
+    toggle.setAttribute("aria-expanded", String(state.expanded));
   }
 
   function togglePublications() {
@@ -170,6 +195,16 @@
     setText("[data-language-toggle]", copy.languageToggle);
     setText("[data-hero-subtitle]", copy.hero.subtitle);
     setText("[data-hero-name]", copy.hero.name);
+    setText("[data-alternate-name]", copy.hero.alternateName);
+    setText("[data-affiliation]", copy.hero.affiliation);
+    $(".portrait-panel img").alt = copy.hero.name;
+    setText("[data-latest-label]", copy.hero.latest);
+    const latest = content.publications[0];
+    setText("[data-latest-journal]", latest.journal);
+    setText("[data-latest-link]", latest.title);
+    $("[data-latest-link]").href = latest.doi ? "https://doi.org/" + latest.doi : "#publications";
+    $(".menu-button").setAttribute("aria-label", lang === "zh" ? "主导航" : "Main menu");
+    setText(".skip-link", lang === "zh" ? "跳转到主要内容" : "Skip to content");
     setText("[data-hero-title]", copy.hero.title);
     setText("[data-hero-summary]", copy.hero.summary);
     setText("[data-primary-action]", copy.hero.primaryAction);
@@ -238,6 +273,7 @@
       state.expanded = true;
       renderYearFilters(content[state.lang]);
       renderPublications(content[state.lang]);
+      $(`[data-year="${state.selectedYear}"]`).focus({ preventScroll: true });
     });
 
     $("[data-publication-toggle]").addEventListener("click", togglePublications);
