@@ -120,6 +120,12 @@
     });
   }
 
+  function setPaperLink(link, doi) {
+    link.href = "https://doi.org/" + doi;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+  }
+
   function renderPublications(copy) {
     const list = $("[data-publication-list]");
     const filtered = filterPublications();
@@ -144,7 +150,7 @@
       article.appendChild(createElement("p", "publication-title", item.title));
       article.appendChild(createElement("p", "publication-authors", item.authors));
       const link = createElement("a", "doi-link", "DOI: " + item.doi);
-      link.href = "https://doi.org/" + item.doi;
+      setPaperLink(link, item.doi);
       article.appendChild(link);
       group.appendChild(article);
     });
@@ -198,7 +204,7 @@
     const latest = content.publications[0];
     setText("[data-latest-journal]", latest.journal);
     setText("[data-latest-link]", latest.title);
-    $("[data-latest-link]").href = latest.doi ? "https://doi.org/" + latest.doi : "#publications";
+    setPaperLink($("[data-latest-link]"), latest.doi);
     $(".menu-button").setAttribute("aria-label", lang === "zh" ? "主导航" : "Main menu");
     setText(".skip-link", lang === "zh" ? "跳转到主要内容" : "Skip to content");
     setText("[data-hero-title]", copy.hero.title);
